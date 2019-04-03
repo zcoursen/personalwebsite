@@ -1,0 +1,56 @@
+[
+      {
+      "id":8,
+      "experience": [{
+          "employer": "AGMednet, Inc.",
+          "title": "Application Engineer",
+          "date": "June 2016 - Present",
+          "description": [{
+              "p1": "Designed, built, implemented and tested client clinical trials on AGMednet network.",
+              "p2": "Build customer reports with client specifications in Jasper Report Server with PostgreSQL.",
+              "p3": "Configured Trials in Adobe Acrobat API: Created interactive dynamic interfaces using Javascript, and XML",
+              "p4": "Bash: Wrote Scripts to automate long tasks",
+              "p5": "Wrote a script with Python to access Judi database, to fix events for clients and automate hundreds to thousands of records that would break.",
+              "p6": "AWS EC2, Configured and deployed instances that manage client data and builds",
+              "p7": "Jira, Confluence, Bitbucket, Tortoise Subversion: Used for ticketing system, wiki creation, production code management, document control"
+          }]
+        }]
+      },
+      {
+      "id": 9, 
+      "experience": [{
+          "employer": "AGMednet, Inc",
+          "title": "Support Engineer",
+          "date": "April 2015 - June 2016",
+          "description": [{
+             "p1": "Provided support on an as-needed basis to existing subscribers reaching the support line.",
+              "p2": "Provided Clinical Trial Set-up support.",
+              "p3": "Respond promptly to customer problems and questions that come in through email, and telephone.",
+              "p4": "Help customers to install, configure and use the AG Mednet network and peripheral systems.",
+              "p5": "Diagnose, troubleshoot, and resolve portal, transport, and network issues with customers.",
+              "p6": "Manage multiple customer cases simultaneously and provide regular progress updates to customers with open support issues.",
+              "p7": "Enter customer-related information including case history in the contact tracking database.",
+              "p8": "Proactively work with Software Engineers to provide the Support team with current information on product problems and resolutions.",
+              "p9": "Accurately identify, replicate, and document software defects and customer-requested product enhancements in the appropriate tracking system."
+          }]
+        }
+      ]
+      },
+      {
+      "id": 11,
+      "experience": [{
+          "employer": "Vital Diagnostics",
+          "title": "System Specialist",
+          "date": "May 2007 - June 2013",
+          "description": [{
+              "p1": "Networked instruments for communications with a DB9 to hub. Checked validity of transmissions through a serial port monitor.",
+              "p2": "Interpreted communications in ASTM transmissions from various medical instruments for troubleshooting.",
+              "p3": "Fixed/ Installed Labpak, and Chameleon for customers. Customized features for Chameleon customers for specified medical instruments.",
+              "p4": "Implemented and maintained Ghost server to streamline day to day tasks for different departments such as R&D and IT. Providing quick new installs on standardized computers.",
+              "p5": "Created and updated Images for the Ghost server.",
+              "p6": "VPN Support from administration side to client."
+          }]
+      }
+    ]
+    }
+]

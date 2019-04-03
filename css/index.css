@@ -1,0 +1,495 @@
+
+@font-face {
+  font-family: 'League Gothic';
+  src: url('../Assets/Fonts/league-gothic-master/webfonts/leaguegothic-condensed-regular-webfont.ttf');
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 12px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family:  Avenir, -apple-system, BlinkMacSystemFont
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    
+  }
+
+  h1 {
+    font-family: Avenir, Georgia, 'Times New Roman', Times, serif;
+    
+  }
+
+  h2 {
+    font-family: Avenir, Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  p {
+    font-size: 12px;
+  }
+
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+      monospace;
+  }
+
+ ul button:hover {
+   background-color: rgb(61, 61, 61);
+ }
+
+ form {
+   background-color: transparent;
+ }
+ 
+
+footer {
+  bottom: 0;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+}
+
+.container {
+  padding-bottom: 58px;
+}
+
+.body-about,
+.body-home {
+  width: 75%;
+  margin: auto;
+}
+
+.about-image {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  height: 200px;
+  width: 200px;
+}
+
+.formBody {
+  background-color: transparent;
+  padding-bottom: 50px;
+}
+
+.main-about,
+.main-header {
+  display: block; 
+  position: absolute;
+  z-index: -10;
+  margin: none;
+  width: 100%;
+  height: 1000px;
+  background-color:#3161A3;
+  background: linear-gradient(#3161A3, transparent 90%),
+  linear-gradient(0deg, #13ABC4, transparent),
+  url('../Assets/Img/Tree\ Line.jpg') no-repeat center;
+}
+
+
+.main-about {
+  text-align: center;
+}
+
+
+.header-about,
+.contact-header,
+.header-title {
+  color: white;
+  font-size: 4.0rem;
+  font-weight: normal;
+  margin: 0 0 0;
+  text-align: center;
+  padding-top: 75px;
+  padding-bottom: 50px;
+  
+  width: 90%;
+  margin: auto;
+}
+
+.contact-header {
+  padding: 20px;
+}
+
+.header-about {
+  padding-top: 170px;
+}
+
+.openingStatement {
+  float: none;
+}
+
+
+.about-image {
+  text-align: center;
+  display: block;
+  float: center;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+}
+
+.work-programs,
+.first-project,
+.statement,
+.header-about,
+.openingstatement,
+.projects,
+.main-header-two,
+.statement-two {
+  margin: auto;
+  text-align: center;
+  color: white;
+  font-size: .8 rem;
+}
+
+.statement {
+  padding-top: 60px;
+  padding-bottom: 10px;
+  border-bottom: 3px solid #cdd9e6;
+}
+
+.projects {
+  padding-bottom: 20px;
+}
+
+.openingstatement {
+  padding-top: 20px;
+}
+
+.main-footer,
+.about-footer,
+.contact-footer{
+  border: 10px solid #000
+}
+
+.main-footer h6,
+.about-footer h6,
+.contact-footer h6 {
+  color: white;
+  background-color: black;
+  margin: 0px;
+  font-family: Avenir;
+}
+.button-holder {
+  text-align: center;
+  margin-top: 5em;
+  margin-bottom: 5em;
+}
+
+.email-button {
+  height: 50px;
+  width: 100px;
+  margin:0;
+  background-color: #b85555;
+  color: white;
+  padding: none;
+  text-shadow: 0 1px 1px rgba(129, 129, 129, 0.2);
+  outline: none;
+  border: none;
+  font-size: 1 rem;
+}
+
+.email-button:hover,
+.email-button:active {
+  background-color: rgb(80, 80, 80);
+  height: 50px;
+  width: 105px;
+}
+
+
+.contact-footer,
+.main-footer,
+.about-footer {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.floatLeft {
+  list-style-type: none;
+  position: relative;
+  display: flex;
+  float: left;
+}
+
+.floatRight {
+  list-style-type: none;
+  position: relative;
+  display: flex;
+  float: right;
+  padding-right:30px;
+}
+
+
+/* Images on About page styling*/
+
+/*---------------------------*/
+
+.t-station,
+.code-photo {
+  border: 2px solid white;
+  border-radius: 15px;
+  margin-right: 20px;
+}
+
+.message {
+  position: absolute;
+}
+
+.email-message {
+  width: 500px;
+  height: 650px;
+  margin: auto;
+  padding-top: 40px;
+  color: #fff;
+  background-color: transparent;
+}
+
+.contact-name-header,
+.contact-email-header,
+.contact-message-header {
+  display: inline;
+  text-align: center;
+  font-size: 1.2rem;
+  margin: 20px;
+}
+
+.custom-message,
+.email,
+.fullname {
+  background: rgba(255,255,255,0.2);
+  border-color: gray;
+}
+
+.custom-message {
+  padding-top: 5px;
+  padding-left: 5px;
+}
+
+.custom-message:focus,
+.email:focus,
+.fullname:focus {
+  background: #979696
+}
+
+.email,
+.fullname {
+  border: black;
+  width: 490px;
+  height: 30px;
+  border-radius: 18px;
+  padding: 5px 5px;
+}
+.custom-message {
+  width: 490px;
+  height: 200px;
+  margin: 5px;
+  border: black;
+  border-radius: 18px;
+}
+
+.email-button {
+  border-radius: 18px;
+  border-color: #000;
+  border: 20px;
+}
+
+.part-one {
+  text-align: center;
+}
+
+.part-one {
+  margin: none;
+  float: center;
+}
+
+.first-project
+ {
+  width: 80%;
+}
+
+.code-photo,
+.t-station {
+  margin-top: 50px;
+  width: 46.5%;
+}
+
+.code-photo {
+  height: 250px;
+  float: right;
+}
+
+.t-station  {
+  height: 250px;
+  float: left;
+}
+
+.body-home,
+.body-about {
+  position: relative;
+  text-align: center
+}
+
+.body-about {
+  color: black;
+  background-color: transparent;
+}
+
+.sticky-inner-wrapper {
+  z-index: 1000;
+}
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media (max-width: 1024px) {
+
+
+  .first-project {
+    width: 80%;
+  }
+
+  .first-project,
+  .t-station,
+  .code-photo,
+  .part-two,
+  .part-one {
+  float: center;
+  }
+}
+
+@media (max-width: 768px) {
+  
+  h1 {
+    font-size: 1.2rem;
+    color: white;
+  }
+
+.header-title {
+  font-size: 3rem;
+}
+
+.projects,
+.main-header-two {
+padding-top: 25px;
+font-size: 2rem;
+}
+
+.container {
+  display: flex;
+  overflow: scroll;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  padding-bottom: 40px;
+}
+
+  .email,
+  .fullname {
+    width: 300px;
+  }
+
+  .statement,
+  .openingStatement,
+  .first-project,
+  .statement-two,
+  .openingstatement {
+    font-size: 1.1rem;
+  }
+
+  .custom-message {
+    width: 300px;
+  }
+
+
+  .email-message {
+    width: 350px;
+    height: 500px;
+  }
+
+  .about-image {
+    height: 200px;
+    width: 200px;
+  }
+
+  .email-button {
+    display: flex;
+    justify-content: center;
+  }
+
+  .formBody {
+    padding-bottom: 70px;
+  }
+
+  .body-home {
+    height: 105px;
+  }
+
+  .part-one,
+  .part-two,
+  .code-photo,
+  .t-station,
+  .first-project,
+  .openingstatement {
+    float: none;
+    text-align: center;
+    width: 100%;
+  }
+
+  
+  .code-photo {
+    display: block;
+    height: 150px;
+    width: auto;
+    margin: auto;
+    margin-top: 20px;
+  }
+
+  .t-station {
+    display: block;
+    height: 165px;
+    width: auto;
+    margin: auto;
+    margin-top: 20px;
+  }
+
+  .main-header-two,
+  .projects {
+    padding-top: 30x;
+  }
+
+  .bottom-margin {
+    height: 105px;
+  }
+
+  h6 {
+    font-size: .6 rem;
+  }
+
+  .contact-header {
+    margin: auto;
+    text-align: center;
+  }
+
+  .email-message {
+    padding: none;
+  }
+  
+}
+

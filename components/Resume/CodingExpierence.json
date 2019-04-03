@@ -1,0 +1,58 @@
+[
+   {
+    "id": 1,
+    "project": [{
+        "title": "Game development with Unity and C# with Visual Studio Code",
+        "description": [{
+             "p1": "Writing Scripts in C# for enemies, and avatar movement.",
+             "p2": "Designing levels with ProGrid in Unity, and Unity interface."
+        }]
+    }]
+    },
+    {
+    "id": 2,
+    "project": [{
+        "title": "Personal Website",
+        "description": [{
+            "p1": "Created a website in React.js using React Router to navigate pages.",
+            "p2": "Designed pages using React.js and CSS3 for styling of the page, used CSS3 to make pages mobile.",
+            "p3": "Animated icons in React.js and CSS.",
+            "p4": "Built Resume on website with JSON, React.js and CSS3 for design with SVGs for artwork.",
+            "p5": "AWS Lambda call for requests to be contacted by user and react.js form with post made to Lambda call."
+            }]
+        }]   
+    },
+    {
+    "id": 3,
+    "project": [{
+        "title": "Python rest interface",
+        "description": [{
+            "p1": "Created simple HTML interface for frontend using Flask and Python backend for Rest API to make calls to MongoDB."
+            }]
+        }]
+    },
+    {
+    "id": 4,
+    "project": [{
+        "title": "Game development with XNA and C# with Visual Studio",
+        "description": [{
+            "p1": "Participated in a group of six to rapidly design and implement an RPG in three weeks.",
+            "p2": "Created the game art and sprite movements using a combination of canvas drawing and Photoshop.",
+            "p3": "Designed and implemented game menu navigation.",
+            "p4": "Completed almost fully functional game; difficulty wasn't balanced and more enemy content was required. Received an A."
+            }]
+        }]
+    },
+    {
+    "id": 5,
+    "project": [{
+        "title": "Creation of a media library GUI with C#",
+        "description": [{
+            "p1": "Collaborated within a group consisting of two additional members for a User Interface class to design and code a media library GUI.",
+            "p2": "Developed using WinForm controls using both graphical (Visual Studio) and programmatic methods.",
+            "p3": "Combined contents from multiple directories into aggregate front end view.",
+            "p4": "End result was a usable media library GUI for content aggregation. Received an A."
+        }]
+        }]
+    }
+]
