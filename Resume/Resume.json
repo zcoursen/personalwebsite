@@ -1,0 +1,147 @@
+{
+    "basics": {
+        "name":"Zack Coursen",
+        "label": "Developer",
+        "email": "",
+        "phone": "",
+        "website": "http://www.zack-coursen.com"
+    },
+    "technical": {
+        "title": "Languages",
+        "languages": "Javascript, HTML5, CSS3, React.js, Python, C#, SQL, XML, C, Java",
+        "databases": "Databases: PostgreSQL, MongoDB",
+        "developement_tools": "Developer Tools: Jira, Jenkins, Bitbucket, AWS, PostgreSQL admin, Flask, Tortoise SVN, Node.JS,",
+        "developement": " Visual Studio Code, Jasper Reports, Atom",
+        "cms": "CMS: Wordpress",
+        "office": "Office: Microsoft Office (Word, PowerPoint, Visio, Excel, Outlook)",
+        "operating_systems": "Operating Systems: Linux, Windows, OSX",
+        "other": "Other: Putty, Postman, Photoshop"
+    },
+    "education": {
+        "title": "Education",
+        "school": "Rhode Island College",
+        "degree": "Computer Science",
+        "date": "Part Time September 2007 - Dec 2012"
+    },
+    "coding": {
+        "id": 1,
+        "project": {
+            "title": "Game development with Unity and C# with Visual Studio Code",
+            "description": [
+                { "point": "Writing Scripts in C# for enemies, and avatar movement."},
+                { "point": "Designing levels with ProGrid in Unity, and Unity interface."}
+            ]
+        },
+        "id": 2,
+        "project": {
+            "title": "Personal Website",
+            "description": [
+                {"point": "Created a website in React.js using React Router to navigate pages."},
+                {"point": "Designed pages using React.js and CSS3 for styling of the page, used CSS3 to make pages mobile."},
+                {"point": "Animated icons in React.js and CSS."},
+                {"point": "Built Resume on website with JSON, React.js and CSS3 for design with SVGs for artwork."},
+                {"point": "AWS Lambda call for requests to be contacted by user and react.js form with post made to Lambda call."}
+            ]
+        },
+        "id": 3,
+        "project": {
+            "title": "Python rest interface",
+            "description": [
+                {"point": "Created simple HTML interface for frontend using Flask and Python backend for Rest API to make calls to MongoDB."}
+            ]
+        },
+        "id": 4,
+        "project": {
+            "title": "Game development with XNA and C# with Visual Studio",
+            "description": [
+                {"point": "Participated in a group of six to rapidly design and implement an RPG in three weeks."},
+                {"point": "Created the game art and sprite movements using a combination of canvas drawing and Photoshop."},
+                {"point": "Designed and implemented game menu navigation."},
+                {"point": "Completed almost fully functional game; difficulty wasn't balanced and more enemy content was required. Received an A."}
+            ]
+        },
+        "id": 5,
+        "project": {
+            "title": "Creation of a media library GUI with C#",
+            "description": [
+                {"point": "Collaborated within a group consisting of two additional members for a User Interface class to design and code a media library GUI."},
+                {"point": "Developed using WinForm controls using both graphical (Visual Studio) and programmatic methods."},
+                {"point": "Combined contents from multiple directories into aggregate front end view."},
+                {"point": "End result was a usable media library GUI for content aggregation. Received an A."}
+            ]
+        },
+        "id": 6,
+        "project": {
+            "title": "Database CRUD with SQL and Java",
+            "description": [
+                {"point": "Utilized the Java programming language via the Eclipse IDE to communicate directly with MySQL database using string queries."},
+                {"point": "Designed database schema to represent classmates and performed queries against the data to create and read rows."}
+            ]
+        },
+        "id": 7,
+        "project": {
+            "title": "Algorithms with Ruby",
+            "description": [
+                {"point": "Compared search Algorithms with Ruby: insertion sort and shell sort."},
+                {"point": "Measured the runtimes of each sort, ran data of varying sizes, and analyzed the data for Analysis of Algorithms course."}
+            ]
+        }
+    },
+    "work": {
+        "id":8,
+        "experience": {
+            "employer": "AGMednet, Inc.",
+            "title": "Application Engineer",
+            "date": "June 2016 - Present",
+            "description": [
+                {"point": "Designed, built, implemented and tested client clinical trials on AGMednet network."},
+                {"point": "Build customer reports with client specifications in Jasper Report Server with PostgreSQL."},
+                {"point": "Configured Trials in Adobe Acrobat API: Created interactive dynamic interfaces using Javascript, and XML"},
+                {"point": "Bash: Wrote Scripts to automate long tasks"},
+                {"point": "Wrote a script with Python to access Judi database, to fix events for clients and automate hundreds to thousands of records that would break."},
+                {"point": "AWS EC2, Configured and deployed instances that manage client data and builds"},
+                {"point": "Jira, Confluence, Bitbucket, Tortoise Subversion: Used for ticketing system, wiki creation, production code management, document control"}
+            ]
+        },
+        "id": 9,
+        "experience": [{
+            "employer": "AGMednet, Inc",
+            "title": "Support Engineer",
+            "date": "April 2015 - June 2016",
+            "description": [
+                {"point":"Provides support on an as-needed basis to existing subscribers reaching the support line."},
+                {"point":"Provides Clinical Trial Set-up support."},
+                {"point":"Respond promptly to customer problems and questions that come in through email, and telephone."},
+                {"point":"Help customers to install, configure and use the AG Mednet network and peripheral systems."},
+                {"point":"Diagnose, troubleshoot, and resolve portal, transport, and network issues with customers."},
+                {"point": "Manage multiple customer cases simultaneously and provide regular progress updates to customers with open support issues."},
+                {"point": "Enter customer-related information including case history in the contact tracking database."},
+                {"point": "Proactively work with Software Engineers to provide the Support team with current information on product problems and resolutions."},
+                {"point": "Accurately identify, replicate, and document software defects and customer-requested product enhancements in the appropriate tracking system."}
+            ]
+        }],
+        "id": 10,
+        "experience": [{
+            "employer": "Draper Laboratory Temp",
+            "title": "Junior Developer",
+            "date": "October 2013 - October 2013",
+            "description": [
+                {"point": "Coded for the automated parachute drop team using CSS, HTML, JavaScript, and C, to make internal webpage’s for testing. Used HTML and CSS with JavaScript to display the results for the test, and C for the backend."}
+            ]
+        }],
+        "id": 11,
+        "experience": [{
+            "employer": "Vital Diagnostics",
+            "title": "System Specialist",
+            "date": "May 2007 - June 2013",
+            "description": [
+                {"point": "Networked instruments for communications with a DB9 to hub. Checked validity of transmissions through a serial port monitor. Sent and received transmissions for specified acknowledgments for troubleshooting purposes."},
+                {"point": "Interpreted communications in ASTM transmissions from various medical instruments for troubleshooting."},
+                {"point": "Fixed/ Installed Labpak, and Chameleon for customers. Customized features for Chameleon customers for specified medical instruments."},
+                {"point": "Implemented and maintained Ghost server to streamline day to day tasks for different departments such as R&D and IT. Providing quick new installs on standardized computers."},
+                {"point": "Created and updated Images for the Ghost server."},
+                {"point": "VPN Support from administration side to client."}
+            ]
+        }]
+    }
+}

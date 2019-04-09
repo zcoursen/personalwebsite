@@ -1,0 +1,25 @@
+.resume_content {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.resume_title {
+    margin: none;
+    margin-left: 10px;
+    margin-block-start: 0;
+}
+
+.resume_grouping {
+    font-size: 1.2rem;
+    margin: 10px 10px 10px 5px;
+}
+
+.resume_paragraph {
+    margin: 0;
+    margin-left: 10px;
+    font-size: .7rem;
+}
+
+.resume_list {
+    margin: 5px 10px 5px 10px;
+    font-size: .5rem;
+}
