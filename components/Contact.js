@@ -8,7 +8,7 @@ constructor(props) {
 
 handleSubmit(e) {
     e.preventDefault()
-    fetch('https://7lo7dsdyyc.execute-api.us-east-1.amazonaws.com/dev/email/send', {
+    fetch('', {
     method: 'post',
     headers: {
         'Content-Type': 'application/json'
